@@ -1,0 +1,10 @@
+#!/bin/bash
+# Copy this file to config.sh and edit the paths for your own system.
+export PROJECT_ROOT="/path/to/StrepA_project_revamped"
+export DATA_DIR="$PROJECT_ROOT/data"
+export RESULTS_DIR="$PROJECT_ROOT/results"
+export GFF_DIR="$PROJECT_ROOT/converted_gffs"
+export REMOVED_GFF_DIR="$PROJECT_ROOT/removed_gffs"
+export METADATA_FILE="$PROJECT_ROOT/StrepA_Project_Revamped_metadata.tsv"
+export MASH_DB="/path/to/your/mash_database.msh"
+export PANAROO_RESULTS_DIR="$PROJECT_ROOT/panaroo_results"
